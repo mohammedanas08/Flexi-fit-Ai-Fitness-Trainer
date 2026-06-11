@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+/* === BUTTON === */
+#pose-dropdown-btn {
+  width: 300px;
+  padding: 12px 20px;
+  border: 2px solid #00ffff55;
+  border-radius: 8px;
+  background-color: rgba(0, 255, 255, 0.05);
+  color: #00ffff;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 8px rgba(0, 255, 255, 0.2);
+}
+
+#pose-dropdown-btn:hover {
+  border-color: #00ffff;
+  background-color: rgba(0, 255, 255, 0.1);
+}
+
+/* === CONTAINER (FIXED!) === */
+.dropdown-container {
+  position: relative; /* important */
+  width: fit-content; /* important */
+  margin: 0 auto; /* center only the button */
+}
+
+/* === MENU (FIXED!) === */
+.dropdown-custom-menu {
+  position: absolute;       /* === DROPDOWN NOW APPEARS BELOW BUTTON === */
+  top: 50px;                /* below the button */
+  left: 0;
+  width: 300px;
+  max-height: 300px;
+  overflow-y: auto;
+
+  background-color: rgba(0, 255, 255, 0.08);
+  border: 1px solid #00ffff55;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 0 16px rgba(0, 255, 255, 0.15);
+  backdrop-filter: blur(8px);
+
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.dropdown-custom-menu::-webkit-scrollbar {
+  display: none;
+}
+
+/* === ITEM === */
+.dropdown-item-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 10px;
+  border-radius: 6px;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.dropdown-item-container:hover {
+  background: rgba(0, 255, 255, 0.15);
+  box-shadow: 0 0 10px #00ffff55;
+}
+
+.dropdown-item-1 {
+  font-size: 16px;
+  color: #e0ffff;
+  text-shadow: 0 0 6px #00ffff44;
+  margin: 0;
+}
+
+.dropdown-img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 6px;
+  border: 1px solid #00ffff33;
+  box-shadow: 0 0 8px rgba(0, 255, 255, 0.2);
+}

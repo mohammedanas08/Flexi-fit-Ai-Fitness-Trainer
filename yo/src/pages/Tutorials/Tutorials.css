@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+.tutorials-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #0c0c0c;
+  background-image: radial-gradient(#1a1a1a 1px, transparent 0);
+  background-size: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 50px 100px;
+  font-family: 'Share Tech Mono', monospace;
+  color: #00ffff;
+  overflow-y: auto;
+}
+
+/* Scrollbar hidden like before */
+.tutorials-container::-webkit-scrollbar {
+  display: none;
+}
+
+.tutorials-heading {
+  font-size: 48px;
+  margin: 0;
+  margin-bottom: 20px;
+  color: #00ffff;
+  text-shadow: 0 0 12px #00ffff88;
+  border-bottom: 2px solid #00ffff33;
+  padding-bottom: 10px;
+  width: 100%;
+}
+
+.tutorials-content-container {
+  max-width: 900px;
+  width: 100%;
+  padding: 20px;
+  background: rgba(0, 255, 255, 0.05);
+  border: 1px solid #00ffff33;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.1);
+  backdrop-filter: blur(6px);
+}
+
+.tutorials-content {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #ccffff;
+}

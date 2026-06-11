@@ -1,0 +1,148 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---------------------------------------------------
+   CYBERPUNK NEON THEME (FlexiFit Style)
+   --------------------------------------------------- */
+
+/* Global background */
+body {
+  background: #0d111a;
+  background-image: linear-gradient(to right, rgba(0,255,255,0.04) 1px, transparent 1px),
+                    linear-gradient(to bottom, rgba(0,255,255,0.04) 1px, transparent 1px);
+  background-size: 40px 40px;
+  color: #d7eaff;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Neon Glow Utility */
+.neon-glow {
+  box-shadow: 0 0 8px rgba(0,255,255,0.6), 0 0 16px rgba(0,255,255,0.4);
+}
+
+/* Neon text */
+.neon-text {
+  color: #00eaff;
+  text-shadow: 0 0 6px rgba(0,255,255,0.6);
+}
+
+/* Glass panel */
+.glass-panel {
+  background: rgba(13, 17, 26, 0.65);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(0,255,255,0.2);
+  box-shadow: 0 0 20px rgba(0,255,255,0.15);
+  border-radius: 12px;
+}
+
+/* Neon buttons */
+.neon-btn {
+  background: rgba(0,255,255,0.1);
+  border: 1px solid rgba(0,255,255,0.5);
+  padding: 10px 22px;
+  font-weight: 600;
+  border-radius: 10px;
+  color: #00eaff;
+  transition: 0.25s ease;
+}
+.neon-btn:hover {
+  background: rgba(0,255,255,0.25);
+  box-shadow: 0 0 12px rgba(0,255,255,0.6);
+}
+
+/* Neon circle buttons (play, pause, restart) */
+.neon-circle {
+  background: rgba(0,255,255,0.1);
+  border: 2px solid rgba(0,255,255,0.5);
+  width: 95px;
+  height: 95px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.25s;
+}
+.neon-circle:hover {
+  box-shadow: 0 0 18px rgba(0,255,255,0.7);
+}
+
+/* Modal backdrop */
+.modal-bg {
+  background: rgba(0,0,0,0.7);
+  backdrop-filter: blur(8px);
+}
+
+/* Modal content style */
+.modal-panel {
+  @apply glass-panel p-6 text-gray-200 rounded-xl;
+}
+
+/* Neon radio buttons */
+.neon-option input:checked + span {
+  background: rgba(0,255,255,0.15);
+  border: 1px solid rgba(0,255,255,0.8);
+  color: #00eaff;
+  box-shadow: inset 0 0 10px rgba(0,255,255,0.4), 0 0 8px rgba(0,255,255,0.4);
+}
+.neon-option span {
+  display: inline-block;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.1);
+  padding: 10px 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.25s ease;
+  color: #cfe7ff;
+}
+.neon-option span:hover {
+  background: rgba(0,255,255,0.1);
+  border-color: rgba(0,255,255,0.4);
+}
+
+/* Switch toggles */
+.switch input:checked + .slider {
+  background-color: #00eaff;
+  box-shadow: 0 0 10px rgba(0,255,255,0.7);
+}
+.slider.round {
+  border-radius: 34px;
+}
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/* Timer & counter neon effect */
+#timerBox, #countBox {
+  color: #00eaff !important;
+  text-shadow: 0 0 10px rgba(0,255,255,0.7);
+}
+
+/* Progress bar (confidence) */
+#confidenceBox {
+  background: linear-gradient(90deg, #00eaff, #14ffff);
+  box-shadow: 0 0 14px rgba(0,255,255,0.8);
+  height: 10px;
+  border-radius: 999px;
+}
+
+/* Advice box */
+#adviceWrapBox div {
+  background: rgba(0,255,255,0.1) !important;
+  border: 1px solid rgba(0,255,255,0.3);
+  color: #00eaff !important;
+}
+
+/* Developer mode label */
+#developerModeBox {
+  color: #00eaff !important;
+  text-shadow: 0 0 6px rgba(0,255,255,0.5);
+}
+
+/* Neon borders for HUD panels */
+#titleWOBox, #fpsBox {
+  background: rgba(0,255,255,0.08) !important;
+  border: 1px solid rgba(0,255,255,0.3) !important;
+  color: #00eaff !important;
+  text-shadow: 0 0 4px rgba(0,255,255,0.5);
+}

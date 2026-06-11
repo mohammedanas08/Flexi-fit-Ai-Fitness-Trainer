@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0c0c0c;
+  background-image: radial-gradient(#1a1a1a 1px, transparent 0);
+  background-size: 20px 20px;
+  font-family: 'Share Tech Mono', monospace;
+  color: #00ffff;
+  overflow-x: hidden;
+}
+
+.home-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.home-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 70px;
+  background: linear-gradient(100deg, #001f23, #003740);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  z-index: 1000;
+  box-shadow: 0 0 10px #00f0ff55;
+  border-bottom: 1px solid #00ffff33;
+}
+
+.home-heading {
+  font-size: 28px;
+  color: #00ffff;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-shadow: 0 0 10px #00ffffaa;
+}
+
+#about-btn {
+  background: transparent;
+  color: #00ffff;
+  border: 1px solid #00ffff;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#about-btn:hover {
+  background: #00ffff;
+  color: black;
+  box-shadow: 0 0 10px #00ffffaa;
+}
+
+/* Main Title */
+.description {
+  font-size: 36px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-shadow: 0 0 8px #00ffff;
+}
+
+/* Image Card */
+.image-card {
+  width: 650px;
+  max-width: 90vw;
+  background: rgba(0, 255, 255, 0.05);
+  border: 1px solid #00ffff44;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.1);
+  padding: 20px;
+  text-align: center;
+  backdrop-filter: blur(6px);
+}
+
+.image-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 6px;
+}
+
+/* Buttons */
+.btn-section {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #00ffff;
+  background: transparent;
+  border: 2px solid #00ffff;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  box-shadow: 0 0 10px transparent;
+}
+
+.btn:hover {
+  background-color: rgba(0, 255, 255, 0.2);
+  color: black;
+  box-shadow: 0 0 20px #00ffff;
+}
