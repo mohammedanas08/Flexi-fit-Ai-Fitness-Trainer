@@ -54,25 +54,25 @@ The project is divided into **three separate modules**, each serving a distinct 
 
 ### 🌐 Main Web App — FlexiFit
 
-![Screenshot 1](Picture1.png)
+![Screenshot 1](screenshots/Picture1.png)
 
-![Screenshot 2](Picture2.png)
+![Screenshot 2](screenshots/Picture2.png)
 
-![Screenshot 3](Picture3.png)
+![Screenshot 3](screenshots/Picture3.png)
 
-![Screenshot 4](Picture4.png)
+![Screenshot 4](screenshots/Picture4.png)
 
 ---
 
 ### 🏃 Workout Tracker & Yoga Module
 
-![Screenshot 5](Picture5.png)
+![Screenshot 5](screenshots/Picture5.png)
 
-![Screenshot 6](Picture6.png)
+![Screenshot 6](screenshots/Picture6.png)
 
-![Screenshot 7](Picture7.jpg)
+![Screenshot 7](screenshots/Picture7.jpg)
 
-![Screenshot 8](Picture8.jpg)
+![Screenshot 8](screenshots/Picture8.jpg)
 
 ---
 
