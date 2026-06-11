@@ -52,24 +52,27 @@ The project is divided into **three separate modules**, each serving a distinct 
 
 ## 📸 Screenshots
 
-### 🌐 Main Web App — FlexiFit (Next.js)
-> Landing page with AI voice program generation, user authentication, and personalized plan display.
+### 🌐 Main Web App — FlexiFit
 
-![FlexiFit Main App](screenshots/screenshot-main-app.png)
+![Screenshot 1](Picture1.png)
 
----
+![Screenshot 2](Picture2.png)
 
-### 🏃 Workout Tracker Module
-> Real-time pose estimation with MediaPipe BlazePose — rep counting, posture feedback, and direction guidance.
+![Screenshot 3](Picture3.png)
 
-![Workout Tracker](screenshots/screenshot-workout.png)
+![Screenshot 4](Picture4.png)
 
 ---
 
-### 🧘 Yoga Pose Tracker Module
-> Live yoga pose analysis with TensorFlow.js — accuracy scoring and alignment correction.
+### 🏃 Workout Tracker & Yoga Module
 
-![Yoga Tracker](screenshots/screenshot-yoga.png)
+![Screenshot 5](Picture5.png)
+
+![Screenshot 6](Picture6.png)
+
+![Screenshot 7](Picture7.jpg)
+
+![Screenshot 8](Picture8.jpg)
 
 ---
 
