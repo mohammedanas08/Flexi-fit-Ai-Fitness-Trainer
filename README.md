@@ -20,6 +20,7 @@
 
 - [Project Overview](#-project-overview)
 - [System Architecture](#-system-architecture)
+- [Screenshots](#-screenshots)
 - [Features](#-features)
 - [Tech Stack](#-tech-stack)
 - [Prerequisites](#-prerequisites)
@@ -46,6 +47,32 @@ The project is divided into **three separate modules**, each serving a distinct 
 | 1 | **Main Web App** | `flexifit/` | Next.js 15, Clerk Auth, Convex DB, Vapi AI | `3000` |
 | 2 | **Workout Tracker** | `workout/` | Webpack, MediaPipe Pose, TensorFlow.js | `8080` |
 | 3 | **Yoga Pose Tracker** | `yo/` | React (CRA), TensorFlow.js, pose-detection | `3001` |
+
+---
+
+## 📸 Screenshots
+
+### 🌐 Main Web App — FlexiFit
+
+![Screenshot 1](screenshots/Picture1.png)
+
+![Screenshot 2](screenshots/Picture2.png)
+
+![Screenshot 3](screenshots/Picture3.png)
+
+![Screenshot 4](screenshots/Picture4.png)
+
+---
+
+### 🏃 Workout Tracker & Yoga Module
+
+![Screenshot 5](screenshots/Picture5.png)
+
+![Screenshot 6](screenshots/Picture6.png)
+
+![Screenshot 7](screenshots/Picture7.jpg)
+
+![Screenshot 8](screenshots/Picture8.jpg)
 
 ---
 
